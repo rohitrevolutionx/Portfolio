@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,33);
+}
+
+.navbar{
+    width: 100%;
+    height: 9%;
+
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(0 0 89);
+    position: fixed;
+}
+.fakenavbar{
+    width: 100%;
+    height: 9%;
+    background-color: rgb(0 0 89);
+}
+
+.left {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .left a{
+    font-family: "Bitcount Prop Single", system-ui;
+    color: rgba(255, 204, 0, 1);
+    font-size: 1.7rem;
+}
+
+.left a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+}
+.right a{
+    margin: 0px 20px;
+
+    text-decoration: none;
+    color: white;
+    padding: 7px 11px;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+    
+}
+.right a:hover{
+    background-color: rgb(140 203 255 / 20%);
+}
+
+hr {
+    border: none;               /* Default gandi black line hatane ke liye */
+    height: 1px;                /* Line ki motai (Ekdam rular jaisi patli) */
+    background-color: rgb(255 255 255 / 20%); /* Halka gray/white tint tumhare dark background ke liye */
+    width: 100%;                 /* Agar poori screen par nahi chahiye toh thoda kam kar do */
+    margin: 0 auto;             /* Line ko center me lane ke liye */
+}
+
+/* Page1 */
+.page1{
+    background-color: rgb(0,0,33);
+
+    display: flex;
+
+    height: 91%;
+    width: 100%;
+}
+
+.item{
+    
+}
+
+.page2{
+    background-color: rgb(0,0,33);
+
+    height: 91%;
+    width: 100%;
+}
+.page3{
+    background-color: rgb(0,0,33);
+
+    height: 91%;
+    width: 100%;
+}
+.footer{
+    background-color: black;
+
+    width: 100%;
+    height: 30%;
+}
