@@ -64,11 +64,11 @@ html, body{
 }
 
 hr {
-    border: none;               /* Default gandi black line hatane ke liye */
-    height: 1px;                /* Line ki motai (Ekdam rular jaisi patli) */
-    background-color: rgb(255 255 255 / 20%); /* Halka gray/white tint tumhare dark background ke liye */
-    width: 100%;                 /* Agar poori screen par nahi chahiye toh thoda kam kar do */
-    margin: 0 auto;             /* Line ko center me lane ke liye */
+    border: none;
+    height: 1px;
+    background-color: rgb(255 255 255 / 20%);
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* Page1 */
